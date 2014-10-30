@@ -4,19 +4,23 @@
 [![Dependency status](https://david-dm.org/Cellarise/generator-cpm-module.svg?style=flat)](https://david-dm.org/Cellarise/generator-cpm-module)
 [![Coverage](https://img.shields.io/badge/coverage-84%25_skipped:0%25-green.svg?style=flat)](https://www.npmjs.org/package/generator-cpm-module)
 
-> Yeoman generator for Cellarise products
+> Yeoman generator for Cellarise modules
 
 
 ##Installation
 
-Install as a global package to call `cpm`, `cgulp`, `cgitsh`, and `oauth` from any location.
-
-```cmd
+Install `generator-cpm-module`:
+```
 npm install -g generator-cpm-module
 ```
 
 
-##Usage 
+##Usage
+
+Run `yo cpm-module`, optionally passing an app name:
+```
+yo cpm-module [app-name]
+```
 
 
 
@@ -59,6 +63,18 @@ Validate project code
     <th style="width:80px;text-align:left;">ID</th>
     <th style="text-align:left;">Summary</th>
   </tr>
+    
+      <tr>
+        <td colspan=4><strong>Version: 0.1.2 - released 2014-10-30</strong></td>
+      </tr>
+        
+          <tr>
+            <td style="width:20px;text-align:center;"><img src='https://jira.cellarise.com/secure/viewavatar?size=xsmall&amp;avatarId=10419&amp;avatarType=issuetype'/></td>
+            <td style="width:80px;text-align:center;">Non-functional</td>
+            <td style="width:80px;text-align:left;">GENMOD-5</td>
+            <td>Package: Update usage readme documentation</td>
+          </tr>
+        
     
       <tr>
         <td colspan=4><strong>Version: 0.1.1 - released 2014-10-30</strong></td>

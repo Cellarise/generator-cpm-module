@@ -1,10 +1,14 @@
 ##Installation
 
-Install as a global package to call `cpm`, `cgulp`, `cgitsh`, and `oauth` from any location.
-
-```cmd
+Install `{name}`:
+```
 npm install -g {name}
 ```
 
 
-##Usage 
+##Usage
+
+Run `yo cpm-module`, optionally passing an app name:
+```
+yo cpm-module [app-name]
+```
