@@ -1,11 +1,31 @@
 # API
 #Index
 
+**Modules**
+
+* [cpm-module](#module_cpm-module)
+
 **Functions**
 
 * [validateProjectName(name)](#validateProjectName)
 * [validateCode(code)](#validateCode)
  
+<a name="module_cpm-module"></a>
+#cpm-module
+Yeoman generator for Cellarise modules
+
+**Example**  
+## Generators
+
+Available generators:
+
+* [cpm-module](#app) (aka [cpm-module:app](#app))
+
+
+### App
+Sets up a new Cellarise module, generating all the boilerplate code to fast track development.
+
+
 <a name="validateProjectName"></a>
 #validateProjectName(name)
 Validate application (module) name

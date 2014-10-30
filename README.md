@@ -27,11 +27,31 @@ yo cpm-module [app-name]
 # API
 #Index
 
+**Modules**
+
+* [cpm-module](#module_cpm-module)
+
 **Functions**
 
 * [validateProjectName(name)](#validateProjectName)
 * [validateCode(code)](#validateCode)
  
+<a name="module_cpm-module"></a>
+#cpm-module
+Yeoman generator for Cellarise modules
+
+**Example**  
+## Generators
+
+Available generators:
+
+* [cpm-module](#app) (aka [cpm-module:app](#app))
+
+
+### App
+Sets up a new Cellarise module, generating all the boilerplate code to fast track development.
+
+
 <a name="validateProjectName"></a>
 #validateProjectName(name)
 Validate application (module) name
@@ -63,6 +83,18 @@ Validate project code
     <th style="width:80px;text-align:left;">ID</th>
     <th style="text-align:left;">Summary</th>
   </tr>
+    
+      <tr>
+        <td colspan=4><strong>Version: 0.1.3 - released 2014-10-31</strong></td>
+      </tr>
+        
+          <tr>
+            <td style="width:20px;text-align:center;"><img src='https://jira.cellarise.com/secure/viewavatar?size=xsmall&amp;avatarId=10419&amp;avatarType=issuetype'/></td>
+            <td style="width:80px;text-align:center;">Non-functional</td>
+            <td style="width:80px;text-align:left;">GENMOD-7</td>
+            <td>Package: Update package dependencies</td>
+          </tr>
+        
     
       <tr>
         <td colspan=4><strong>Version: 0.1.2 - released 2014-10-30</strong></td>
