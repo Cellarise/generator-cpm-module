@@ -9,6 +9,7 @@
     "scenarios": false,
     "steps": false
   },
-  "rules": {
+  "rules":{
+    "quotes": [0, "single"]
   }
 }

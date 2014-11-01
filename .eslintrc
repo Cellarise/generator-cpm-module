@@ -52,7 +52,7 @@
 
     //Legacy
     "max-depth": [2, 10], //-This rule aims to reduce the complexity of your code by allowing you to configure the maximum depth blocks can be nested in a function.
-    "max-len": [2, 120, 4], //-specify the maximum length of a line in your program (off by default)
+    "max-len": [2, 120, 2], //-specify the maximum length of a line in your program (off by default)
     "max-params": [2, 8], //-limits the number of parameters that can be used in the function declaration. (off by default)
     "max-statements": [2, 50],  //- specify the maximum number of statement allowed in a function (off by default)
     "no-bitwise": 2, //-disallow use of bitwise operators (off by default)
