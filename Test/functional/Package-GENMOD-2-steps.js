@@ -8,25 +8,23 @@ module.exports = (function testSuite() {
   var SANDBOX =  path.resolve(__dirname, '../../Temp');
   var runCwd;
 
-  if (typeof after !== "undefined") {
-    after(function after(done) {
-      var exec = require("child_process").exec;
-      exec("cpm cleanFolder " + SANDBOX, {},
-        function execCommandCallback() {
-          //assert(!error); //this returns an error as it can't delete the Temp directory.
-          //However, all files and folders contained within it are deleted.
-          process.chdir(runCwd); //reset cwd
-          done();
-        });
-    });
-  }
-
   return English.library()
   /*Scenario: Generate a default module */
     .define("Given a new folder",
       function test(done) {
         runCwd = process.cwd(); //remember cwd
         helpers.testDirectory(SANDBOX, done);
+        //set clean up after scenario complete
+        this.world.after = function afterScenario(done) {
+          var exec = require("child_process").exec;
+          exec("cpm cleanFolder " + SANDBOX, {},
+            function execCommandCallback() {
+              //assert(!error); //this returns an error as it can't delete the Temp directory.
+              //However, all files and folders contained within it are deleted.
+              process.chdir(runCwd); //reset cwd
+              done();
+            });
+        };
       })
     .define("When calling the generator",
       function test(done) {
@@ -41,6 +39,7 @@ module.exports = (function testSuite() {
       })
     .define("Then the expected folder structure and files are generated",
       function test(done) {
+        var self = this;
         var dd;
         var ndd = require("node-dir-diff");
         var standardDir = path.resolve(__dirname, '../../app/templates/standard');
@@ -53,8 +52,11 @@ module.exports = (function testSuite() {
           ],
           "size");
         dd.compare(function ddCompare(err, result){
-          assert(!err);
-          assert(result.missing.length === 0);
+          if (err || result.missing.length > 0){
+            self.world.logger.error(result);
+            assert(!err, "ddCompare error: " + err);
+            assert.equal(result.missing.length, 0);
+          }
           done();
         });
       });
