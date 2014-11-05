@@ -3,6 +3,7 @@ Feature: Package: Add default generator for modules
   I can scaffold modules automatically
   So that I can efficiently and reliably setup a new module
 
+  @linked=GENMOD-16
   Scenario: Generate a default module
 
       Given a new folder

@@ -9,6 +9,25 @@
   </tr>
     
       <tr>
+        <td colspan=4><strong>Version: 0.1.7 - released 2014-11-05</strong></td>
+      </tr>
+        
+          <tr>
+            <td style="width:20px;text-align:center;"><img src='https://jira.cellarise.com/secure/viewavatar?size=xsmall&amp;avatarId=10403&amp;avatarType=issuetype'/></td>
+            <td style="width:80px;text-align:center;">Bug</td>
+            <td style="width:80px;text-align:left;">GENMOD-16</td>
+            <td>Package: Main directive in package.json points to invalid path</td>
+          </tr>
+        
+          <tr>
+            <td style="width:20px;text-align:center;"><img src='https://jira.cellarise.com/secure/viewavatar?size=xsmall&amp;avatarId=10419&amp;avatarType=issuetype'/></td>
+            <td style="width:80px;text-align:center;">Non-functional</td>
+            <td style="width:80px;text-align:left;">GENMOD-15</td>
+            <td>Package: Remove modules incorrectly specified as development dependencies in package.json</td>
+          </tr>
+        
+    
+      <tr>
         <td colspan=4><strong>Version: 0.1.6 - released 2014-11-04</strong></td>
       </tr>
         
