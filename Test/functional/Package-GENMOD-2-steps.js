@@ -37,6 +37,20 @@ module.exports = (function testSuite() {
           })
           .on('end', done);
       })
+    .define("When calling the generator skipping the greeting",
+    function test(done) {
+      helpers.run(path.join(__dirname, '../../app'))
+        .inDir(SANDBOX)
+        .withOptions({
+          "skip-welcome-message": true
+        })
+        .withPrompts({
+          "projectCode": 'MODTEST',
+          "projectName": 'test-app',
+          "projectDesc": 'My new test app'
+        })
+        .on('end', done);
+    })
     .define("Then the expected folder structure and files are generated",
       function test(done) {
         var self = this;

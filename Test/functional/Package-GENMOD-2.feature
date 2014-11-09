@@ -9,3 +9,9 @@ Feature: Package: Add default generator for modules
       Given a new folder
       When calling the generator
       Then the expected folder structure and files are generated
+
+  Scenario: Generate a module skipping greeting
+
+    Given a new folder
+    When calling the generator skipping the greeting
+    Then the expected folder structure and files are generated
