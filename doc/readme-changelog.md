@@ -9,6 +9,25 @@
   </tr>
     
       <tr>
+        <td colspan=4><strong>Version: 0.1.10 - released 2014-11-12</strong></td>
+      </tr>
+        
+          <tr>
+            <td style="width:20px;text-align:center;"><img src='https://jira.cellarise.com/secure/viewavatar?size=xsmall&amp;avatarId=10412&amp;avatarType=issuetype'/></td>
+            <td style="width:80px;text-align:center;">Minor</td>
+            <td style="width:80px;text-align:left;">GENMOD-20</td>
+            <td>Package: Add packageJSON option for runtime setting of package.json properties</td>
+          </tr>
+        
+          <tr>
+            <td style="width:20px;text-align:center;"><img src='https://jira.cellarise.com/secure/viewavatar?size=xsmall&amp;avatarId=10412&amp;avatarType=issuetype'/></td>
+            <td style="width:80px;text-align:center;">Minor</td>
+            <td style="width:80px;text-align:left;">GENMOD-19</td>
+            <td>Package: Add repository prompt and use to set package.json repository</td>
+          </tr>
+        
+    
+      <tr>
         <td colspan=4><strong>Version: 0.1.9 - released 2014-11-10</strong></td>
       </tr>
         

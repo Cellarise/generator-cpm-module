@@ -16,5 +16,8 @@ module.exports = generators.Base.extend({
     "askForDestinationDir": actions.askForDestinationDir,
     "askForParameters": actions.askForParameters
   },
-  "writing": actions.scaffold
+  "writing": {
+    "scaffold": actions.scaffold,
+    "writePackage": actions.writePackage
+  }
 });
