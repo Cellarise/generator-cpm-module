@@ -17,7 +17,7 @@ module.exports = (function testSuite() {
         //set clean up after scenario complete
         this.world.after = function afterScenario(done) {
           var exec = require("child_process").exec;
-          exec("cpm cleanFolder " + SANDBOX, {},
+          exec("rm -r " + SANDBOX, {},
             function execCommandCallback() {
               //assert(!error); //this returns an error as it can't delete the Temp directory.
               //However, all files and folders contained within it are deleted.

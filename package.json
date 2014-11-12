@@ -2,7 +2,7 @@
   "author": "John Barry",
   "name": "generator-cpm-module",
   "description": "Yeoman generator for Cellarise modules",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "license": "MIT License (MIT)",
   "keywords": ["yeoman-generator", "scaffold"],
   "repository": {
@@ -46,8 +46,8 @@
         }
       }
     },
-    "build": "39",
-    "buildTimestamp": "2014-11-12T14:00:21.561+10:00"
+    "build": "41",
+    "buildTimestamp": "2014-11-12T16:38:25.687+10:00"
   },
   "directories": {
     "lib": "lib",

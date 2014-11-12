@@ -103,6 +103,18 @@ Validate project code
   </tr>
     
       <tr>
+        <td colspan=4><strong>Version: 0.1.11 - released 2014-11-12</strong></td>
+      </tr>
+        
+          <tr>
+            <td style="width:20px;text-align:center;"><img src='https://jira.cellarise.com/secure/viewavatar?size=xsmall&amp;avatarId=10419&amp;avatarType=issuetype'/></td>
+            <td style="width:80px;text-align:center;">Non-functional</td>
+            <td style="width:80px;text-align:left;">GENMOD-21</td>
+            <td>Tests: Update Temp folder clear teardown function</td>
+          </tr>
+        
+    
+      <tr>
         <td colspan=4><strong>Version: 0.1.10 - released 2014-11-12</strong></td>
       </tr>
         
