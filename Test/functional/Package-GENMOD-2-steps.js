@@ -5,7 +5,7 @@ module.exports = (function testSuite() {
   var assert = require('yeoman-generator').assert;
   var path = require("path");
   var helpers = require("yeoman-generator").test;
-  var SANDBOX =  path.resolve(__dirname, '../../Temp');
+  var SANDBOX = path.resolve(__dirname, '../../Temp');
   var runCwd;
 
   return English.library()
