@@ -9,11 +9,65 @@
   </tr>
     
 <tr>
+        <td colspan=4><strong>Version: 0.1.16 - released 2015-02-24</strong></td>
+      </tr>
+        
+<tr>
+            <td style="width:20px;text-align:center;"><img src='https://jira.cellarise.com:80/secure/viewavatar?size=xsmall&amp;avatarId=10419&amp;avatarType=issuetype'/></td>
+            <td style="width:80px;text-align:center;">Non-functional</td>
+            <td style="width:80px;text-align:left;">GENMOD-32</td>
+            <td>Package: Update package dependencies</td>
+          </tr>
+        
+<tr>
+            <td style="width:20px;text-align:center;"><img src='https://jira.cellarise.com:80/secure/viewavatar?size=xsmall&amp;avatarId=10419&amp;avatarType=issuetype'/></td>
+            <td style="width:80px;text-align:center;">Non-functional</td>
+            <td style="width:80px;text-align:left;">GENMOD-31</td>
+            <td>Package: Update eslint configuration, test.js runner and dev dependencies</td>
+          </tr>
+        
+<tr>
+            <td style="width:20px;text-align:center;"><img src='https://jira.cellarise.com:80/secure/viewavatar?size=xsmall&amp;avatarId=10419&amp;avatarType=issuetype'/></td>
+            <td style="width:80px;text-align:center;">Non-functional</td>
+            <td style="width:80px;text-align:left;">GENMOD-29</td>
+            <td>Package: Update package dependencies</td>
+          </tr>
+        
+<tr>
+            <td style="width:20px;text-align:center;"><img src='https://jira.cellarise.com:80/secure/viewavatar?size=xsmall&amp;avatarId=10419&amp;avatarType=issuetype'/></td>
+            <td style="width:80px;text-align:center;">Non-functional</td>
+            <td style="width:80px;text-align:left;">GENMOD-30</td>
+            <td>Package: Update package dependencies</td>
+          </tr>
+        
+<tr>
+            <td style="width:20px;text-align:center;"><img src='https://jira.cellarise.com:80/secure/viewavatar?size=xsmall&amp;avatarId=10419&amp;avatarType=issuetype'/></td>
+            <td style="width:80px;text-align:center;">Non-functional</td>
+            <td style="width:80px;text-align:left;">GENMOD-27</td>
+            <td>Package: Update copyright and license</td>
+          </tr>
+        
+<tr>
+            <td style="width:20px;text-align:center;"><img src='https://jira.cellarise.com:80/secure/viewavatar?size=xsmall&amp;avatarId=10419&amp;avatarType=issuetype'/></td>
+            <td style="width:80px;text-align:center;">Non-functional</td>
+            <td style="width:80px;text-align:left;">GENMOD-28</td>
+            <td>Package: Update directory compare tests</td>
+          </tr>
+        
+<tr>
+            <td style="width:20px;text-align:center;"><img src='https://jira.cellarise.com:80/secure/viewavatar?size=xsmall&amp;avatarId=10419&amp;avatarType=issuetype'/></td>
+            <td style="width:80px;text-align:center;">Non-functional</td>
+            <td style="width:80px;text-align:left;">GENMOD-26</td>
+            <td>Package: Update eslint configuration, test.js runner and dev dependencies</td>
+          </tr>
+        
+    
+<tr>
         <td colspan=4><strong>Version: 0.1.15 - released 2014-11-16</strong></td>
       </tr>
         
 <tr>
-            <td style="width:20px;text-align:center;"><img src='https://jira.cellarise.com/secure/viewavatar?size=xsmall&amp;avatarId=10419&amp;avatarType=issuetype'/></td>
+            <td style="width:20px;text-align:center;"><img src='https://jira.cellarise.com:80/secure/viewavatar?size=xsmall&amp;avatarId=10419&amp;avatarType=issuetype'/></td>
             <td style="width:80px;text-align:center;">Non-functional</td>
             <td style="width:80px;text-align:left;">GENMOD-25</td>
             <td>Package: Update package dependencies</td>
@@ -25,7 +79,7 @@
       </tr>
         
 <tr>
-            <td style="width:20px;text-align:center;"><img src='https://jira.cellarise.com/secure/viewavatar?size=xsmall&amp;avatarId=10419&amp;avatarType=issuetype'/></td>
+            <td style="width:20px;text-align:center;"><img src='https://jira.cellarise.com:80/secure/viewavatar?size=xsmall&amp;avatarId=10419&amp;avatarType=issuetype'/></td>
             <td style="width:80px;text-align:center;">Non-functional</td>
             <td style="width:80px;text-align:left;">GENMOD-24</td>
             <td>Package: Update package dependencies</td>
@@ -37,7 +91,7 @@
       </tr>
         
 <tr>
-            <td style="width:20px;text-align:center;"><img src='https://jira.cellarise.com/secure/viewavatar?size=xsmall&amp;avatarId=10419&amp;avatarType=issuetype'/></td>
+            <td style="width:20px;text-align:center;"><img src='https://jira.cellarise.com:80/secure/viewavatar?size=xsmall&amp;avatarId=10419&amp;avatarType=issuetype'/></td>
             <td style="width:80px;text-align:center;">Non-functional</td>
             <td style="width:80px;text-align:left;">GENMOD-23</td>
             <td>Package: Update package dependencies</td>
@@ -49,7 +103,7 @@
       </tr>
         
 <tr>
-            <td style="width:20px;text-align:center;"><img src='https://jira.cellarise.com/secure/viewavatar?size=xsmall&amp;avatarId=10419&amp;avatarType=issuetype'/></td>
+            <td style="width:20px;text-align:center;"><img src='https://jira.cellarise.com:80/secure/viewavatar?size=xsmall&amp;avatarId=10419&amp;avatarType=issuetype'/></td>
             <td style="width:80px;text-align:center;">Non-functional</td>
             <td style="width:80px;text-align:left;">GENMOD-22</td>
             <td>Package: Fix package.json repository property</td>
@@ -61,7 +115,7 @@
       </tr>
         
 <tr>
-            <td style="width:20px;text-align:center;"><img src='https://jira.cellarise.com/secure/viewavatar?size=xsmall&amp;avatarId=10419&amp;avatarType=issuetype'/></td>
+            <td style="width:20px;text-align:center;"><img src='https://jira.cellarise.com:80/secure/viewavatar?size=xsmall&amp;avatarId=10419&amp;avatarType=issuetype'/></td>
             <td style="width:80px;text-align:center;">Non-functional</td>
             <td style="width:80px;text-align:left;">GENMOD-21</td>
             <td>Tests: Update Temp folder clear teardown function</td>
@@ -73,14 +127,14 @@
       </tr>
         
 <tr>
-            <td style="width:20px;text-align:center;"><img src='https://jira.cellarise.com/secure/viewavatar?size=xsmall&amp;avatarId=10412&amp;avatarType=issuetype'/></td>
+            <td style="width:20px;text-align:center;"><img src='https://jira.cellarise.com:80/secure/viewavatar?size=xsmall&amp;avatarId=10412&amp;avatarType=issuetype'/></td>
             <td style="width:80px;text-align:center;">Minor</td>
             <td style="width:80px;text-align:left;">GENMOD-20</td>
             <td>Package: Add packageJSON option for runtime setting of package.json properties</td>
           </tr>
         
 <tr>
-            <td style="width:20px;text-align:center;"><img src='https://jira.cellarise.com/secure/viewavatar?size=xsmall&amp;avatarId=10412&amp;avatarType=issuetype'/></td>
+            <td style="width:20px;text-align:center;"><img src='https://jira.cellarise.com:80/secure/viewavatar?size=xsmall&amp;avatarId=10412&amp;avatarType=issuetype'/></td>
             <td style="width:80px;text-align:center;">Minor</td>
             <td style="width:80px;text-align:left;">GENMOD-19</td>
             <td>Package: Add repository prompt and use to set package.json repository</td>
@@ -92,7 +146,7 @@
       </tr>
         
 <tr>
-            <td style="width:20px;text-align:center;"><img src='https://jira.cellarise.com/secure/viewavatar?size=xsmall&amp;avatarId=10403&amp;avatarType=issuetype'/></td>
+            <td style="width:20px;text-align:center;"><img src='https://jira.cellarise.com:80/secure/viewavatar?size=xsmall&amp;avatarId=10403&amp;avatarType=issuetype'/></td>
             <td style="width:80px;text-align:center;">Bug</td>
             <td style="width:80px;text-align:left;">GENMOD-18</td>
             <td>Package: Error thrown due to missing files</td>
@@ -104,7 +158,7 @@
       </tr>
         
 <tr>
-            <td style="width:20px;text-align:center;"><img src='https://jira.cellarise.com/secure/viewavatar?size=xsmall&amp;avatarId=10419&amp;avatarType=issuetype'/></td>
+            <td style="width:20px;text-align:center;"><img src='https://jira.cellarise.com:80/secure/viewavatar?size=xsmall&amp;avatarId=10419&amp;avatarType=issuetype'/></td>
             <td style="width:80px;text-align:center;">Non-functional</td>
             <td style="width:80px;text-align:left;">GENMOD-17</td>
             <td>Package: Refactor actions.js to improve readability</td>
@@ -116,17 +170,17 @@
       </tr>
         
 <tr>
-            <td style="width:20px;text-align:center;"><img src='https://jira.cellarise.com/secure/viewavatar?size=xsmall&amp;avatarId=10419&amp;avatarType=issuetype'/></td>
-            <td style="width:80px;text-align:center;">Non-functional</td>
-            <td style="width:80px;text-align:left;">GENMOD-15</td>
-            <td>Package: Remove modules incorrectly specified as development dependencies in package.json</td>
-          </tr>
-        
-<tr>
-            <td style="width:20px;text-align:center;"><img src='https://jira.cellarise.com/secure/viewavatar?size=xsmall&amp;avatarId=10403&amp;avatarType=issuetype'/></td>
+            <td style="width:20px;text-align:center;"><img src='https://jira.cellarise.com:80/secure/viewavatar?size=xsmall&amp;avatarId=10403&amp;avatarType=issuetype'/></td>
             <td style="width:80px;text-align:center;">Bug</td>
             <td style="width:80px;text-align:left;">GENMOD-16</td>
             <td>Package: Main directive in package.json points to invalid path</td>
+          </tr>
+        
+<tr>
+            <td style="width:20px;text-align:center;"><img src='https://jira.cellarise.com:80/secure/viewavatar?size=xsmall&amp;avatarId=10419&amp;avatarType=issuetype'/></td>
+            <td style="width:80px;text-align:center;">Non-functional</td>
+            <td style="width:80px;text-align:left;">GENMOD-15</td>
+            <td>Package: Remove modules incorrectly specified as development dependencies in package.json</td>
           </tr>
         
     
@@ -135,7 +189,7 @@
       </tr>
         
 <tr>
-            <td style="width:20px;text-align:center;"><img src='https://jira.cellarise.com/secure/viewavatar?size=xsmall&amp;avatarId=10412&amp;avatarType=issuetype'/></td>
+            <td style="width:20px;text-align:center;"><img src='https://jira.cellarise.com:80/secure/viewavatar?size=xsmall&amp;avatarId=10412&amp;avatarType=issuetype'/></td>
             <td style="width:80px;text-align:center;">Minor</td>
             <td style="width:80px;text-align:left;">GENMOD-14</td>
             <td>Templates: Add eslintrc, .gitignore and .npmignore configuration files</td>
@@ -147,7 +201,7 @@
       </tr>
         
 <tr>
-            <td style="width:20px;text-align:center;"><img src='https://jira.cellarise.com/secure/viewavatar?size=xsmall&amp;avatarId=10419&amp;avatarType=issuetype'/></td>
+            <td style="width:20px;text-align:center;"><img src='https://jira.cellarise.com:80/secure/viewavatar?size=xsmall&amp;avatarId=10419&amp;avatarType=issuetype'/></td>
             <td style="width:80px;text-align:center;">Non-functional</td>
             <td style="width:80px;text-align:left;">GENMOD-13</td>
             <td>Package: Update package dependencies</td>
@@ -159,7 +213,7 @@
       </tr>
         
 <tr>
-            <td style="width:20px;text-align:center;"><img src='https://jira.cellarise.com/secure/viewavatar?size=xsmall&amp;avatarId=10419&amp;avatarType=issuetype'/></td>
+            <td style="width:20px;text-align:center;"><img src='https://jira.cellarise.com:80/secure/viewavatar?size=xsmall&amp;avatarId=10419&amp;avatarType=issuetype'/></td>
             <td style="width:80px;text-align:center;">Non-functional</td>
             <td style="width:80px;text-align:left;">GENMOD-9</td>
             <td>Package: Update package dependencies</td>
@@ -171,7 +225,7 @@
       </tr>
         
 <tr>
-            <td style="width:20px;text-align:center;"><img src='https://jira.cellarise.com/secure/viewavatar?size=xsmall&amp;avatarId=10419&amp;avatarType=issuetype'/></td>
+            <td style="width:20px;text-align:center;"><img src='https://jira.cellarise.com:80/secure/viewavatar?size=xsmall&amp;avatarId=10419&amp;avatarType=issuetype'/></td>
             <td style="width:80px;text-align:center;">Non-functional</td>
             <td style="width:80px;text-align:left;">GENMOD-7</td>
             <td>Package: Update package dependencies</td>
@@ -183,7 +237,7 @@
       </tr>
         
 <tr>
-            <td style="width:20px;text-align:center;"><img src='https://jira.cellarise.com/secure/viewavatar?size=xsmall&amp;avatarId=10419&amp;avatarType=issuetype'/></td>
+            <td style="width:20px;text-align:center;"><img src='https://jira.cellarise.com:80/secure/viewavatar?size=xsmall&amp;avatarId=10419&amp;avatarType=issuetype'/></td>
             <td style="width:80px;text-align:center;">Non-functional</td>
             <td style="width:80px;text-align:left;">GENMOD-5</td>
             <td>Package: Update usage readme documentation</td>
@@ -195,7 +249,7 @@
       </tr>
         
 <tr>
-            <td style="width:20px;text-align:center;"><img src='https://jira.cellarise.com/secure/viewavatar?size=xsmall&amp;avatarId=10419&amp;avatarType=issuetype'/></td>
+            <td style="width:20px;text-align:center;"><img src='https://jira.cellarise.com:80/secure/viewavatar?size=xsmall&amp;avatarId=10419&amp;avatarType=issuetype'/></td>
             <td style="width:80px;text-align:center;">Non-functional</td>
             <td style="width:80px;text-align:left;">GENMOD-4</td>
             <td>Package: Fix test step process.cwd() change side effect</td>
@@ -207,17 +261,17 @@
       </tr>
         
 <tr>
-            <td style="width:20px;text-align:center;"><img src='https://jira.cellarise.com/secure/viewavatar?size=xsmall&amp;avatarId=10411&amp;avatarType=issuetype'/></td>
-            <td style="width:80px;text-align:center;">Feature</td>
-            <td style="width:80px;text-align:left;">GENMOD-2</td>
-            <td>Package: Add default generator for modules</td>
-          </tr>
-        
-<tr>
-            <td style="width:20px;text-align:center;"><img src='https://jira.cellarise.com/secure/viewavatar?size=xsmall&amp;avatarId=10419&amp;avatarType=issuetype'/></td>
+            <td style="width:20px;text-align:center;"><img src='https://jira.cellarise.com:80/secure/viewavatar?size=xsmall&amp;avatarId=10419&amp;avatarType=issuetype'/></td>
             <td style="width:80px;text-align:center;">Non-functional</td>
             <td style="width:80px;text-align:left;">GENMOD-3</td>
             <td>Package: Update package dependencies</td>
+          </tr>
+        
+<tr>
+            <td style="width:20px;text-align:center;"><img src='https://jira.cellarise.com:80/secure/viewavatar?size=xsmall&amp;avatarId=10411&amp;avatarType=issuetype'/></td>
+            <td style="width:80px;text-align:center;">Feature</td>
+            <td style="width:80px;text-align:left;">GENMOD-2</td>
+            <td>Package: Add default generator for modules</td>
           </tr>
         
     

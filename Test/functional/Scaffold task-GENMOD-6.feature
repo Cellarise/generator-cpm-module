@@ -4,7 +4,6 @@ Feature: Scaffold task: Add automatic population of project code, name and descr
   So that I can efficiently maintain project details in package.json from one source of truth - JIRA
 
   @Pending=true
-    @pending=true
     Scenario: 
     
     Given

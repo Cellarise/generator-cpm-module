@@ -18,7 +18,7 @@ module.exports = (function testSuite() {
       })
     .define("Should report errors for a name over 10 characters",
     function test(done) {
-      assert.notEqual(this.world.func('appappappappappappapp'),true);
+      assert.notEqual(this.world.func('appappappappappappapp'), true);
       done();
     })
     .define("Should accept good names",
@@ -32,32 +32,32 @@ module.exports = (function testSuite() {
     })
     .define("Should report errors for text starting with .",
       function test(done) {
-        assert.notEqual(this.world.func('.app'),true);
+        assert.notEqual(this.world.func('.app'), true);
         done();
       })
     .define("Should report errors for text containing special chars",
     function test(done) {
-      assert.notEqual(this.world.func('my app'),true);
-      assert.notEqual(this.world.func('my/app'),true);
-      assert.notEqual(this.world.func('my@app'),true);
-      assert.notEqual(this.world.func('my+app'),true);
-      assert.notEqual(this.world.func('my%app'),true);
-      assert.notEqual(this.world.func('my:app'),true);
+      assert.notEqual(this.world.func('my app'), true);
+      assert.notEqual(this.world.func('my/app'), true);
+      assert.notEqual(this.world.func('my@app'), true);
+      assert.notEqual(this.world.func('my+app'), true);
+      assert.notEqual(this.world.func('my%app'), true);
+      assert.notEqual(this.world.func('my:app'), true);
       done();
     })
     .define("Should report errors for text containing dot dash and underscore",
     function test(done) {
-      assert.notEqual(this.world.func('my.app'),true);
-      assert.notEqual(this.world.func('my-app'),true);
-      assert.notEqual(this.world.func('my_app'),true);
+      assert.notEqual(this.world.func('my.app'), true);
+      assert.notEqual(this.world.func('my-app'), true);
+      assert.notEqual(this.world.func('my_app'), true);
       done();
     })
     .define("Should report errors for text as node_modules/favicon.ico",
     function test(done) {
-      assert.notEqual(this.world.func('node_modules'),true);
-      assert.notEqual(this.world.func('Node_Modules'),true);
-      assert.notEqual(this.world.func('favicon.ico'),true);
-      assert.notEqual(this.world.func('favicon.ICO'),true);
+      assert.notEqual(this.world.func('node_modules'), true);
+      assert.notEqual(this.world.func('Node_Modules'), true);
+      assert.notEqual(this.world.func('favicon.ico'), true);
+      assert.notEqual(this.world.func('favicon.ICO'), true);
       done();
     });
 })();
