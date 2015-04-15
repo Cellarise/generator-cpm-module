@@ -9,6 +9,25 @@
   </tr>
     
 <tr>
+        <td colspan=4><strong>Version: 0.1.17 - released 2015-04-15</strong></td>
+      </tr>
+        
+<tr>
+            <td style="width:20px;text-align:center;"><img src='https://jira.cellarise.com:80/secure/viewavatar?size=xsmall&amp;avatarId=10403&amp;avatarType=issuetype'/></td>
+            <td style="width:80px;text-align:center;">Bug</td>
+            <td style="width:80px;text-align:left;">GENMOD-34</td>
+            <td>Package: Fix test case failures after dependencies update</td>
+          </tr>
+        
+<tr>
+            <td style="width:20px;text-align:center;"><img src='https://jira.cellarise.com:80/secure/viewavatar?size=xsmall&amp;avatarId=10419&amp;avatarType=issuetype'/></td>
+            <td style="width:80px;text-align:center;">Non-functional</td>
+            <td style="width:80px;text-align:left;">GENMOD-33</td>
+            <td>Package: Update package dependencies</td>
+          </tr>
+        
+    
+<tr>
         <td colspan=4><strong>Version: 0.1.16 - released 2015-02-24</strong></td>
       </tr>
         
