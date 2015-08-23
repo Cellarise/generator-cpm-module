@@ -19,28 +19,28 @@
   "config": {
     "projectCode": "GENMOD",
     "build": "n/a",
-    "buildTimestamp": "2015-08-23T13:44:03.566Z",
+    "buildTimestamp": "2015-08-23T14:09:23.326Z",
     "adminEmail": "mail@cellarise.com",
     "coverage": {
       "codeClimate": true,
       "watermarks": {
         "statements": [
-          50,
+          39,
           80,
           20
         ],
         "lines": [
-          50,
+          39,
           80,
           20
         ],
         "functions": [
-          50,
+          22,
           80,
           20
         ],
         "branches": [
-          50,
+          39,
           80,
           20
         ]
