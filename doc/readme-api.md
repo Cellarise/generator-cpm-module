@@ -1,19 +1,24 @@
-# API
-#Index
-
-**Modules**
-
-* [cpm-module](#module_cpm-module)
-
-**Functions**
-
-* [validateProjectName(name)](#validateProjectName)
-* [validateCode(code)](#validateCode)
- 
+## API
+### Modules
+<dl>
+<dt><a href="#module_cpm-module">cpm-module</a></dt>
+<dd><p>Yeoman generator for Cellarise modules</p>
+</dd>
+</dl>
+### Functions
+<dl>
+<dt><a href="#validateProjectName">`validateProjectName(name)`</a> ⇒ <code>String</code> | <code>Boolean</code></dt>
+<dd><p>Validate application (module) name</p>
+</dd>
+<dt><a href="#validateCode">`validateCode(code)`</a> ⇒ <code>String</code> | <code>Boolean</code></dt>
+<dd><p>Validate project code</p>
+</dd>
+</dl>
 <a name="module_cpm-module"></a>
-#cpm-module
+### cpm-module
 Yeoman generator for Cellarise modules
 **Example**  
+```none
 ## Generators
 
 Available generators:
@@ -24,23 +29,36 @@ Available generators:
 ### App
 Sets up a new Cellarise module, generating all the boilerplate code to fast track development.
 
+```
+
+-
+
 <a name="validateProjectName"></a>
-#validateProjectName(name)
+### `validateProjectName(name)` ⇒ <code>String</code> &#124; <code>Boolean</code>
 Validate application (module) name
 
-**Params**
+**Kind**: global function  
+**Returns**: <code>String</code> &#124; <code>Boolean</code> - true if valid name or a message identifying the validation error  
 
-- name `String` - application name  
+| Param | Type | Description |
+| --- | --- | --- |
+| name | <code>String</code> | application name |
 
-**Returns**: `String` | `Boolean` - true if valid name or a message identifying the validation error  
+
+-
+
 <a name="validateCode"></a>
-#validateCode(code)
+### `validateCode(code)` ⇒ <code>String</code> &#124; <code>Boolean</code>
 Validate project code
 
-**Params**
+**Kind**: global function  
+**Returns**: <code>String</code> &#124; <code>Boolean</code> - true if valid name or a message identifying the validation error  
 
-- code `String` - The user input  
+| Param | Type | Description |
+| --- | --- | --- |
+| code | <code>String</code> | The user input |
 
-**Returns**: `String` | `Boolean` - true if valid name or a message identifying the validation error  
+
+-
 
 *documented by [jsdoc-to-markdown](https://github.com/75lb/jsdoc-to-markdown)*.

@@ -2,7 +2,7 @@
   "author": "Cellarise",
   "name": "generator-cpm-module",
   "description": "Yeoman generator for Cellarise modules",
-  "version": "0.1.17",
+  "version": "0.0.0",
   "license": "MIT License (MIT)",
   "keywords": [
     "yeoman-generator",
@@ -13,16 +13,16 @@
     "url": "https://github.com/Cellarise/generator-cpm-module.git"
   },
   "main": "./app/index.js",
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org"
+  "scripts": {
+    "test": "./node_modules/.bin/gulp"
   },
   "config": {
-    "private": false,
     "projectCode": "GENMOD",
-    "build": "76",
-    "buildTimestamp": "2015-04-15T13:22:12.346+10:00",
+    "build": "n/a",
+    "buildTimestamp": "2015-08-23T13:44:03.566Z",
     "adminEmail": "mail@cellarise.com",
     "coverage": {
+      "codeClimate": true,
       "watermarks": {
         "statements": [
           50,
@@ -48,30 +48,30 @@
       "stats": {
         "lines": {
           "pctSkipped": 0,
-          "pct": 90,
-          "colour": "green"
+          "pct": 43,
+          "colour": "red"
         },
         "branches": {
           "pctSkipped": 0,
-          "pct": 74,
-          "colour": "yellow"
+          "pct": 48,
+          "colour": "red"
         },
         "statements": {
           "pctSkipped": 0,
-          "pct": 90,
-          "colour": "green"
+          "pct": 43,
+          "colour": "red"
         },
         "functions": {
           "pctSkipped": 0,
-          "pct": 100,
-          "colour": "brightgreen"
+          "pct": 22,
+          "colour": "red"
         },
         "skipped": {
           "pct": 0
         },
         "overall": {
-          "pct": 89,
-          "colour": "green"
+          "pct": 39,
+          "colour": "red"
         }
       }
     }

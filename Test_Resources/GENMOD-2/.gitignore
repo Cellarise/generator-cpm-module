@@ -1,0 +1,11 @@
+.idea/
+atlassian-ide-plugin.xml
+/Tools/
+/Build/
+/Temp/
+/bower_components/
+/Reports/
+/rsa-cert.*
+/rsa-key.*
+/config.json
+/*.log

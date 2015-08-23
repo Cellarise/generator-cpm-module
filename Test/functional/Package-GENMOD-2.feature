@@ -4,12 +4,14 @@ Feature: Package: Add default generator for modules
   So that I can efficiently and reliably setup a new module
 
   @linked=GENMOD-16,GENMOD-19,GENMOD-20
+  @Pending
   Scenario: Generate a default module
 
       Given a new folder
       When calling the generator
       Then the expected folder structure and files are generated
 
+  @Pending
   Scenario: Generate a module skipping greeting
 
     Given a new folder
