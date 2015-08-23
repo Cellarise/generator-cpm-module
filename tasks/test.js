@@ -40,7 +40,7 @@ module.exports = function testTasks(gulp, context) {
     R.forEach(function eachSourceGlobStrFN(value) {
       scriptPath = path.resolve(process.cwd(), value);
       try {
-        require(scriptPath); // Make sure all files are loaded to get accurate coverage data
+        //require(scriptPath); // Make sure all files are loaded to get accurate coverage data
         logger.info("Loaded: " + scriptPath);
       } catch (err) {
         logger.warn("Could not load: " + scriptPath);
