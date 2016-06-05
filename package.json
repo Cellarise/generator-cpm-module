@@ -2,7 +2,7 @@
   "author": "Cellarise",
   "name": "generator-cpm-module",
   "description": "Yeoman generator for Cellarise modules",
-  "version": "0.1.21",
+  "version": "0.1.22",
   "license": "MIT License (MIT)",
   "keywords": [
     "yeoman-generator",
@@ -18,8 +18,8 @@
   },
   "config": {
     "projectCode": "GENMOD",
-    "build": "91",
-    "buildTimestamp": "2016-05-02T14:04:53.040Z",
+    "build": "93",
+    "buildTimestamp": "2016-06-05T14:05:39.393Z",
     "adminEmail": "mail@cellarise.com",
     "coverage": {
       "codeClimate": true,
