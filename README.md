@@ -122,6 +122,18 @@ Validate project code
   </tr>
     
 <tr>
+        <td colspan=4><strong>Version: 0.1.24 - released 2016-12-19</strong></td>
+      </tr>
+        
+<tr>
+            <td style="width:20px;padding:0;margin:0;text-align:center;"><img src="https://jira.nhvr.net:80/secure/viewavatar?size=xsmall&amp;avatarId=10418&amp;avatarType=issuetype"/></td>
+            <td style="width:80px;text-align:left;">Non-functional</td>
+            <td style="width:80px;text-align:left;">GENMOD-43</td>
+            <td><p>Package: Update package dependencies</p><p></p></td>
+          </tr>
+        
+    
+<tr>
         <td colspan=4><strong>Version: 0.1.23 - released 2016-07-19</strong></td>
       </tr>
         
@@ -505,6 +517,6 @@ MIT License (MIT). All rights not explicitly granted in the license are reserved
 
 Copyright (c) 2015 Cellarise
 ## Dependencies
-[generator-cpm-module@0.1.22](&quot;https://github.com/Cellarise/generator-cpm-module&quot;) - &quot;MIT License (MIT)&quot;, 
+[generator-cpm-module@0.1.23](&quot;https://github.com/Cellarise/generator-cpm-module&quot;) - &quot;MIT License (MIT)&quot;, 
 *documented by [npm-licenses](http://github.com/AceMetrix/npm-license.git)*.
 
